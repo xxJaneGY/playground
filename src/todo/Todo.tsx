@@ -1,6 +1,7 @@
 import React, { FormEvent, useState } from "react";
 import { AddItem } from "./components/AddItem";
 import { TodoItem } from "./components/TodoItem";
+import "./assets/css/todo.css";
 
 export const Todo = () => {
   const [text, setText] = useState<string>("");
